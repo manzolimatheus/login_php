@@ -1,0 +1,66 @@
+/* Cabeçalho */
+
+#header > :first-child{
+    text-align: center;
+    padding: 1%;
+    background-color: white;
+}
+
+.navigation-bar{
+    background-color: black;
+    padding: 1%;
+}
+
+.navigation-bar a{
+    color: white;
+}
+
+/* Container */
+
+.container{
+    background-color: white;
+    width: 96%;
+    padding: 1%;
+    margin: 1%;
+    height: fit-content;
+}
+
+/* Sessão de botões */
+
+.btn{
+    color: white;
+    padding: 1%;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+.btn-success{
+    background-color: #4dca53;
+}
+
+.btn-danger{
+    background-color: tomato;
+}
+
+.btn-black{
+    background-color: black;
+}
+
+/* Formulário */
+
+.input{
+    width: 96%;
+    padding: 1%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Mensagem */
+
+.message{
+    background-color: orange;
+    width: 98%;
+    text-align: center;
+    padding: 1%;
+}
